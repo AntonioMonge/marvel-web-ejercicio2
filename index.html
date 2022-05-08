@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ejercicio 2 marvel</title>
+  </head>
+  <body>
+      <div class="container-logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/800px-Marvel_Logo.svg.png" alt="Logo"/>
+      </div>
+      <div class="form-container">
+          <h1>Vienvenido a Marvel</h1>
+
+          <p>Para disfrutal de la esperiencia de esta pagina y vivir la mayor aventura completa el formulario<a href="./">log in</a></p>
+
+          <form method="get" action="formulario.html">
+              <div class="form-grupo">
+                  <label for="email">Email</label>
+                  <input type="email" id="username" name="email" placeholder="Email" required/>
+              </div>
+
+              <div class="form-grup">
+                  <label for="username">Username</label>
+                  <input type"text" id="username" name="username" placeholder="Nombre de usuario" minlength="5" maxlength="17" required/>
+              </div>
+
+              <div class="form-grup">
+                  <label for="password">Password</label>
+                  <label for"show-password" title="show-password" class="show-password">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZbH6xaDMP3RdLN909HXH7iHGufg2ecSOshYiRSesxgQ&s"/>Ver
+                  </label>
+                  <input type="password" id="password" name="password" placeholder="contraseña" minlength="7" required />
+              </div>
+
+              <div class="form-grup">
+                  <ul>
+                      <li>Un caracter en minuscula</li>
+                      <li>Un caracter en mayuscula</li>
+                      <li>Minimo 5 caracteres</li>
+                      <li>Maximo 12 caracteres</li>
+                      <li>Minimo un numero</li>
+                  </ul>
+              </div>
+
+              <div class="form-grup">
+                  <div class="button-container">
+                      <button type="submit">Enviar</button>
+                  </div>
+
+                  <div class="check-container">
+                      <span>
+                          <input type="checkbox" name="checkbox" class="input-checkbox"/>
+                          <label for="checkbox">
+                            No quiero recibir correos electrónicos sobre marvel y relacionados
+                            Actualizaciones de funciones y productos de marvel, prácticas recomendadas de marvel,
+                            y promociones de Marvel.
+                          </label>
+                      </span> 
+                  </div>
+              </div>
+
+              <div class="form-famili">
+                  <p>Al crear una cuenta usted acepta nuestra<a href="">Terms</a>y
+                     e leido y reconozco el <a href="">Global Privacy Statement</a></p>
+              </div>
+          </form>
+      </div>
+  </body>
+</html>
